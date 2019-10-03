@@ -1,10 +1,10 @@
 {
-  "name": "Cabiling_S_3039_FaveThing",
+  "name": "cabiling_s_3039_favething",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app"
   },
   "keywords": [],
   "author": "",
