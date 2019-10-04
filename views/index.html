@@ -9,65 +9,103 @@
     <title>Favourite Mobile Game: PUBG Mobile</title>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand mx-auto d-block" href="./index.html"><img src="http://localhost:3000/images/logo.png"alt="Logo" width="150"></a>
-    </nav>
+       
+    <nav class="navbar navbar-9 navbar-dark bg-dark navbar-expand-lg">
 
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="/"><img src="http://localhost:3000/images/logo.png"alt="Logo" width="100"></a>
+      
+        <!-- Collapse button -->
+        <button class="navbar-toggler ninth-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+          aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+      
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/media">MEDIA</a>
+            </li>
+          </ul>
+          <!-- Links -->
+      
+        </div>
+        <!-- Collapsible content -->
+      
+      </nav>
+      <!--/Navbar-->
+      
 
+    <!--Jumbotron-->
     <div class="jumbotron jumbotron-fluid">
         <h1 class="display-4">PUBG Mobile</h1>
         <h2 class="lead">Be the last one standing</h2>
     </div>
 
-
+    <!--video-->
     <div class="container">
-            <div class="row">
-                    <div class="embed-responsive embed-responsive-16by9 mb-4">
-                            <iframe width="400" height="300" class="embed-responsive-item" src="https://www.youtube.com/embed/uCd6tbUAy6o" allowfullscreen></iframe>
-                          </div>
-                <h5>The world online has exploded into battle royale madness, with the launch of a couple of huge games. One is PlayerUnknown's Battlegrounds, or PUBG to its friends. Checkout the Media page!</h5>
-                <div class="desc">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="10000">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                                <p>Battle royale basically means all against all, a bit like The Hunger Games where you start with nothing and have to scavenge and collect weapons and equipment. The game is ultimately a battle to the last player standing, with 100 players on an 8 x 8 km island.</p>
-                          </div>
-                          <div class="carousel-item">
-                                <p>There are three modes of play: solo, duo and squad, with the latter letting you team up with three other players for a team of four. Each is a little different with various pros and cons, the big pro of team play being that have people to support you, revive you and bring an element of co-operative tactics to the game.</p>
-                          </div>
-                          <div class="carousel-item">
-                                <p>The island is a mixture of urban and rural environments, detailed in the map in the top right-hand corner of the game, and the full area is initially playable, but the play areas decreases in size as time progresses.</p>
-                          </div>
-                          <div class="carousel-item">
-                                <p>Each game can last up to about 30 minutes if you're one of the last standing. Of course, you can die almost as soon as you're on the ground. Winner, winner, chicken dinner.</p>
-                          </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
-                        </a>
-                      </div>
-            </div>
+        <div class="row">
+            <div class="col-sm-4 col-lg-5 mt-3 d-block mx-auto videoWrapper">
+                <div class="embed-responsive embed-responsive-16by9 mb-4">
+                    <iframe width="400" height="300" class="embed-responsive-item" src="https://www.youtube.com/embed/uCd6tbUAy6o" class="vid" allowfullscreen></iframe>
+                </div>
+            </div>   
+                    
+                    
+                    <h5 class="col-sm-12 col-lg-6 col-lg-offset-6">The world online has exploded into battle royale madness, with the launch of a couple of huge games. Battle royale basically means all against all, a bit like The Hunger Games where you start with nothing and have to scavenge and collect weapons and equipment. The game is ultimately a battle to the last player standing, with 100 players on an 8 x 8 km island.Checkout the <a href="/media">gallery!</a></h5>  
+
+           
+
+                    <div class="col-sm-4 col-md-4 col-lg-4 d-block mx-auto showcase">
+                        <img src="http://localhost:3000/images/1.jpg">
+                        <p>There are three modes of play: solo, duo and squad, with the latter letting you team up with three other players for a team of four. Each is a little different with various pros and cons, the big pro of team play being that have people to support you, revive you and bring an element of co-operative tactics to the game</p>
+                    </div>
+
+                    <div class="col-sm-4 col-md-4 col-lg-4 d-block mx-auto showcase">                    
+                        <img src="http://localhost:3000/images/lobby.jpg">
+                        <p>The island is a mixture of urban and rural environments, detailed in the map in the top right-hand corner of the game, and the full area is initially playable, but the play areas decreases in size as time progresses.</p>
+                    </div>
+
+                    <div class="col-sm-4 col-md-4 col-lg-4 d-block mx-auto showcase">                    
+                        <img src="http://localhost:3000/images/winner.jpg">
+                        <p>Each game can last up to about 30 minutes if you're one of the last standing. Of course, you can die almost as soon as you're on the ground. Winner, winner, chicken dinner.</p>
+                    </div>
+                 
         </div>
     </div>
+
     
-      <footer class="container bg-dark  justify-content-center  mt-auto">
-            <div class="row">
-            <div class="d-flex col-sm-12 col-md-8 col-md-offset-2">
-                    <a href="https://facebook.com">
-                        <img src="http://localhost:3000/images/fb.png" width="25" class="mr-2 mt-2 mb-2">
-                    </a>
-                    <a href="https://instagram.com">
-                        <img src="http://localhost:3000/images/ig.png" width="25" class="mr-2 mt-2 mb-2">
-                    </a>
-                </div>
-            </div>
-        </footer>
-        
+    <div class="container-fluid bg-dark footer">
+           <div class="row">
+                <a href="https://www.facebook.com/PUBGMOBILE/?epa=SEARCH_BOX">
+                    <img src="http://localhost:3000/images/fb.png" width="30" class="ml-4 mr-3 mt-4 mb-4 icons">
+                </a>
+                <a href="https://www.instagram.com/pubgmobile/?hl=en">
+                    <img src="http://localhost:3000/images/ig.png" width="30" class="mr-3 mt-4 mb-4">
+                </a>
+                <a href="https://twitter.com/PUBGMOBILE">
+                    <img src="http://localhost:3000/images/twitter-48.png" width="30" class="mr-3 mt-4 mb-4">
+                </a>
+                <a href="https://www.youtube.com/PUBGMOBILE">
+                    <img src="http://localhost:3000/images/youtube-48.png" width="30" class="mr-3 mt-4 mb-4">
+                </a>
+                <a href="https://apps.apple.com/app/id1330123889?mt=8">
+                    <img src="http://localhost:3000/images/appstore.svg" width="100" class="mr-4 mt-4 mb-4 d-sm-none d-none d-sm-block appstore pull-right">
+                    <img src="http://localhost:3000/images/mApp.png" width="32" class="mr-3 mt-4 mb-4 float-right 	d-block d-sm-none">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.tencent.ig&hl=en">
+                    <img src="http://localhost:3000/images/playstore.png" width="100" class="mr-4 mt-4 mb-4 float-right d-sm-none d-none d-sm-block">
+                    <img src="http://localhost:3000/images/mPlay.png" width="30" class="mr-3 mt-4 mb-4 float-right  d-block d-sm-none">
+                </a>
+           </div>
+    </div>
+   
+   
+
 
    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
